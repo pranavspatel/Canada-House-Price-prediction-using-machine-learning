@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Housing Stats</title>
+   <link
+   rel="stylesheet"
+   href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+   integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+   crossorigin="anonymous"
+   />
+   <link rel="stylesheet" href="static/css/style.css">
+</head>
+
+<body>
+   <!-- <div class="topnav">
+      <a class="active" href="#home">Home</a>
+      <a href="#news">Results</a>
+      <a href="#contact">Contact Us</a>
+      <a href="#about">About Us</a> 
+   </div>-->
+   <div class="wrapper">
+      <div class="jumbotron">
+         <h1 class="display-4">Canadian Housing Price Analysis</h1>
+         <div style="background-image: url('/static/Images/New_Background.jpeg');
+         background-size: cover; height: 300px; padding-inline: 120px; background-position: center;">
+         </div>
+      </div> 
+      <div class="container-fluid">
+         <div class="row">
+            <div class="col-md-3">
+                 <h3>Canadian House Prices: Will Rise or Drop? <small>Analysis is here</small></h3>
+            </div>
+            <div class="col-md-9">
+               <p>
+                  Canada is one of the top real estate market in world. The aftermath of covid pandemic and economic downturn has slowed down real estate market of Canada with declining sales in 2022. However, real estate market in Canada is very competitive and is often considered by majority of people as best long term investment.<br><br>
+
+
+                   "The release of this analysis is well-timed: It contains multiple factors which has impacted the Canadian housing market for last various years. This include Time, Average house prices, mortgage rates, immigrants and composite Housing Price Index (HPI)."
+                   <br><br>
+                   Below charts will display the changing house prices from 2005 to 2022 along with some other factors which has directly or indirectly affected the price to rise and fall.
+                   <br> 
+               </p>
+           </div>
+         </div>
+      </div>      
+      
+      <div>
+         <div class="row">
+            <div class="column">
+               <iframe src="/static/charts.html" height="400" width="700" title="Iframe Example" frameborder="0"></iframe>
+            </div>
+            <div class="column">
+               <img src='/static/Images/my_hist.png' alt="Histograph Graph" style="width:700px;height:400px;">
+            </div>
+            <div class="column">
+               <img src='/static/Images/my_lineplot.png' alt="Line Graph" style="width:700px;height:400px;">
+            </div>
+            <div class="column">
+               <img src='/static/Images/Region.png' alt="Line Graph" style="width:700px;height:400px;">
+            </div>
+         </div>
+      </div>
+         <center></center> 
+         
+      <div class="container">
+         <h1 style="text-align:center;">Click Prediction Button to predict approximate house price </h1>
+         <form action= "http://127.0.0.1:5000/predict" method="POST">
+            <center><button class="btn btn-danger btn-lg">Prediction</button></center>
+         </form>
+      </div>
+
+   </div>
+
+
+   </div>
+
+
+</body>
+</html>
+
+
+
+

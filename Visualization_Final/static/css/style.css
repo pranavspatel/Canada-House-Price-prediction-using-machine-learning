@@ -1,0 +1,20 @@
+
+body{
+    color:rgb(240, 233, 233);
+}
+
+.jumbotron{
+
+    background-image:linear-gradient(132deg, rgb(48, 46, 46) 0.00%, rgb(48, 46, 46) 100.00%);
+
+    background-image:linear-gradient(132deg, rgb(53, 51, 51) 0.00%, rgb(62, 60, 60) 100.00%);
+
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+body{
+    background-image:None;
+    background: linear-gradient(to right, #2f2d2d 0%, rgb(60, 59, 59) 100%);
+}
+

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> house price prediction</title>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="jumbotron">
+           <h1 style="text-align:center;">Predicting the house prices using linear regression</h1>
+           <div style="background-image: url('/static/Images/3.webp');
+           background-size: cover; height: 700px; padding-inline: 100px; background-position: center;">
+        </div>
+    </div> 
+
+           </div>
+        </div> 
+
+    <p style="text-align:center"><font color="#ffffff" size="9" >Please enter the parameters</font></p>
+
+    
+    <div class="wrapper">
+        <div class="jumbotron">
+        <form action= http://127.0.0.1:5000/getresults method="POST">
+            <p style="text-align:center"> Date <input type="date" name="Date"> </p>
+            <p style="text-align:center"> Mortgage_rate <input type="int" name="Mortgage_rate"> </p>
+            <p style="text-align:center"> Immigrants <input type="int" name="Immigrants"> </p>
+
+            <p style="text-align:center"><input type="Submit" value="Predict"></p>
+
+        
+        </form>
+        </div>
+    </div>
+
+
+</body>
+</html>
+
